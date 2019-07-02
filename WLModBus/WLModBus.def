@@ -1,0 +1,10 @@
+LIBRARY
+
+EXPORTS
+	DllRegisterServer PRIVATE
+	DllUnregisterServer PRIVATE
+	DllGetClassObject PRIVATE
+	DllCanUnloadNow  PRIVATE
+
+SETCTIONS
+    DLLSharedSection READ WRITE SHARED
